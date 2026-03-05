@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5050;
 
 console.log("port", PORT);
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
     res.send(`<h1>Welcome to my Express App</h1>`);
 });
 
